@@ -15,6 +15,12 @@ Built with Python and Pygame, the tool combines shape rendering, joystick input,
 </p>
 
 
+
+
+
+
+
+
 ## Collision & Debug Mechanics
 
 The user controls falling or moving tetrominoes using a game controller. These geometric shapes collide with a static obstacle in a pixel-perfect environment, allowing users to inspect collision boundaries visually (the obstacle turns orange when collision occurs) or to monitor player and obstacle x and y coordinates.
