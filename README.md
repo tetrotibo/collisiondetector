@@ -6,7 +6,7 @@ Originally built as a learning tool for comprehensive gamepad input management, 
 
 Built with Python and Pygame, the tool combines shape rendering, joystick input, delta time smoothing and real-time overlays to help designers debug and refine core game mechanics with visual clarity.
 
-<img src="https://github.com/tetrotibo/collision-detector/blob/main/screenshots/a_game_01.png?raw=true" style="max-width: 100%;" alt="Collision Detector Screenshot">
+<img src="https://github.com/tetrotibo/collisiondetector/blob/main/screenshots/a_game_01.png?raw=true" style="max-width: 100%;" alt="Collision Detector Screenshot">
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=dummy-link">
