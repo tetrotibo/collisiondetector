@@ -2,7 +2,7 @@
 
 Collision Detector is a Python-based utility designed to test and visualize a **pixel-perfect collision detection system** in a retro-style debug environment.
 
-Originally built as a learning tool for **comprehensive gamepad input management**, this prototype lets users interact with dynamic shapes in a minimalist 2D sandbox to fine-tune collision accuracy and control logic.
+Originally built as a learning tool for **comprehensive gamepad input management**, this prototype lets users interact with dynamic **tetromino-shaped objects** in a minimalist 2D sandbox to fine-tune collision accuracy and control logic.
 
 **Built with Python and Pygame**, the tool combines shape rendering, joystick input, delta time smoothing and real-time overlays to help designers debug and refine core game mechanics with visual clarity.
 
@@ -16,14 +16,14 @@ Originally built as a learning tool for **comprehensive gamepad input management
 
 ## Collision & Debug Mechanics
 
-The user navigates a test shape using either a game controller or keyboard. Shapes can be toggled between forms like squares and circles to simulate different object types.
+The user controls falling or moving **tetrominoes** using either a game controller or keyboard. These geometric shapes collide with static and dynamic targets in a pixel-perfect environment, allowing users to inspect collision boundaries with high visual fidelity.
 
-Collisions are detected at the pixel level and visualized in real time using outlines, impact markers and state overlays. The system also handles:
-- single-frame inputs
-- contact angle feedback
-- consistent motion via delta time
+Real-time overlays display outlines, bounding boxes and impact points. The system also handles:
+- single-frame input timing
+- rotation and movement logic
+- consistent physics via delta time smoothing
 
-Its layered display system and toggle controls allow developers to isolate specific behaviors for in-depth testing.
+Designed as a visual debugging tool, the prototype isolates edge cases and micro-collisions in fast-paced environments similar to arcade-era gameplay.
 
 ## Built With
 
@@ -34,10 +34,10 @@ Its layered display system and toggle controls allow developers to isolate speci
 ## Features
 
 - Pixel-perfect collision detection system with live visual feedback
-- Shape toggling for flexible interaction testing
+- Tetromino shapes with dynamic movement and rotation
 - Comprehensive gamepad input management with single-frame detection
 - Real-time overlays: hitboxes, outlines and collisions
-- Delta time smoothing for stable and precise movement
+- Delta time smoothing for stable and precise motion
 - Modular codebase ready for extension and experimentation
 
 ## Licensing
