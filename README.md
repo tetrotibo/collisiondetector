@@ -4,7 +4,7 @@ Collision Detector is a Python-based utility designed to test and visualize a pi
 
 Originally built as a learning tool for comprehensive gamepad input management, this prototype lets users interact with dynamic tetromino-shaped objects in a minimalist 2D sandbox to fine-tune collision accuracy and control logic.
 
-Built with Python and Pygame, the tool combines shape rendering, joystick input, delta time smoothing and real-time overlays to help designers debug and refine core game mechanics with visual clarity.
+Built with Python and Pygame, the tool combines shape rendering, joystick input, delta time smoothing and real-time overlays. It operates across five distinct speed modes—normal, slow, fast, pixel-per-pixel and block-per-block. Each mode introduces its own quirks and behavior, requiring specific logic adjustments and careful implementation to ensure accurate collisions and stable motion.
 
 <img src="https://github.com/tetrotibo/collisiondetector/blob/main/screenshots/a_game_01.png?raw=true" style="max-width: 100%;" alt="Collision Detector Screenshot">
 
@@ -36,6 +36,7 @@ Designed as a visual debugging tool, the prototype isolates edge cases and micro
 - Pixel-perfect collision detection system with live visual feedback
 - Tetromino shapes with dynamic movement and rotation
 - Comprehensive gamepad input management with single-frame detection
+- Handles five speed modes: normal, slow, fast, pixel-per-pixel, block-per-block
 - Real-time overlays: hitboxes, outlines and collisions
 - Delta time smoothing for stable and precise motion
 - Modular codebase ready for extension and experimentation
