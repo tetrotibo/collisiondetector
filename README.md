@@ -42,4 +42,4 @@ Designed as a visual debugging tool, the prototype isolates edge cases and micro
 
 ## Licensing
 Application, screenshots and demo video are all original works and protected.  
-See [LICENSE](https://github.com/tetrotibo/collision-detector/blob/main/LICENSE) for details regarding code and media usage rights.
+See [LICENSE](https://github.com/tetrotibo/collisiondetector/tree/main) for details regarding code and media usage rights.
