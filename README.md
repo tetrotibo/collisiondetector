@@ -9,7 +9,7 @@ Built with Python and Pygame, the tool combines shape rendering, joystick input,
 <img src="https://github.com/tetrotibo/collisiondetector/blob/main/screenshots/a_game_01.png?raw=true" style="max-width: 100%;" alt="Collision Detector Screenshot">
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=dummy-link">
+  <a href="https://youtu.be/VWYX-NSvz2c?si=Op8iot6xXkibR8DS">
     <img src="https://img.shields.io/badge/VIDEO%20DEMO-5c7fa3?style=for-the-badge&logo=youtube&logoColor=white" alt="VIDEO DEMO">
   </a>
 </p>
